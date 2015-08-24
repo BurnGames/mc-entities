@@ -1,0 +1,8 @@
+{
+  "name": "mc-entities",
+  "version": "1.0.0",
+  "description": "This project can be used to emulate Minecraft entities.",
+  "main": "./src/Entity.js",
+  "author": "Paul Sauve <paul@burngames.net> (http://paulb.gd/)",
+  "license": "MIT"
+}
