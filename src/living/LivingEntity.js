@@ -35,8 +35,13 @@ LivingEntity.prototype.tick = function () {
     if (this.health <= 0) {
         this.valid = false;
         // todo death event
-    } else {
+    }
+
+    if (this.valid) {
         // todo drowning
+        if (this.goals) {
+            this.goals.tick(this);
+        }
     }
 };
 
